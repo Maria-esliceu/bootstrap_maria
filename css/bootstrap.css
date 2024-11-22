@@ -8835,7 +8835,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-gray), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {
@@ -8855,7 +8855,7 @@ textarea.form-control-lg {
 
 .bg-body {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgb(222, 222, 222) !important;
 }
 
 .bg-transparent {
@@ -12055,3 +12055,24 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*añadido por mi*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
